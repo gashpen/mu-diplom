@@ -233,10 +233,10 @@
   height: 1px;
   clip: rect(1px, 1px, 1px, 1px);
 }
-.radio:checked .radio__list__text:before {
+.radio:checked~.radio__list__text:before {
   background-image: url(../svg/form-circle.svg);
 }
-.radio__list__text:before {
+.radio__list__text::before {
   display: inline-block;
   vertical-align: middle;
   width: 20px;
